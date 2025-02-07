@@ -1,3 +1,5 @@
+using Azure.Data.Tables;
+
 namespace TrilhaNetAzureDesafio.Models
 {
     public class Funcionario
@@ -15,7 +17,6 @@ namespace TrilhaNetAzureDesafio.Models
             Salario = salario;
             DataAdmissao = dataAdmissao;
         }
-
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Endereco { get; set; }
